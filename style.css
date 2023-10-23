@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+                                            /*HEADER START*/
 
 header{
     height: 55px;
@@ -172,6 +173,8 @@ nav{
     visibility: visible;
     transform: scaleX(1);
 }
+
+                                                        /*HEADER END*/
 
 
                                                         /*Banner Start*/
@@ -420,8 +423,6 @@ img{
 
                                                     /*MediaQuery Start*/
 
-
-
  @media screen and (max-width: 900px){
     footer .content .link-box{
         flex-wrap: wrap;
@@ -491,7 +492,7 @@ img{
     z-index: 1;
     border: none;
     border-radius: 0 15px;
-    margin: 5px;
+    margin: 6px;
     opacity: 0.8;
     transition: all 0.4s ease;
     bottom:30px;
